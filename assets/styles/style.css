@@ -506,6 +506,7 @@ footer {
 .gallery__img__container {
   position: relative;
   overflow: hidden;
+  max-width: 22.5rem;
   > img {
     transition: transform 1s;
   }
