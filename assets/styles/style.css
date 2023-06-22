@@ -505,6 +505,10 @@ footer {
     padding-inline: var(--side-space-iphone);
   }
 
+  .view__all__btn {
+    font-size: var(--fonts-strd);
+  }
+
   header {
     max-height: 70vh;
 
