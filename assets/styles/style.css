@@ -520,6 +520,10 @@ footer {
   header {
     max-height: 70vh;
 
+    > .navbar__top h1 {
+      font-size: var(--font-l);
+    }
+
     > article {
       width: 350px;
       > h2 {
