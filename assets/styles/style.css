@@ -455,7 +455,8 @@ footer {
 
 @media screen and (max-width: 820px) {
   .section__blog,
-  .section__gallery {
+  .section__gallery,
+  .section__testimonials {
     padding: var(--side-space-ipad);
   }
 
@@ -504,7 +505,8 @@ footer {
 
 @media screen and (max-width: 414px) {
   .section__blog,
-  .section__gallery {
+  .section__gallery,
+  .section__testimonials {
     padding: var(--side-space-iphone);
   }
 
