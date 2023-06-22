@@ -511,11 +511,10 @@ footer {
   }
 
   .view__all__btn {
-    font-size: var(--fonts-s);
+    font-size: var(--fonts-strd);
     color: var(--clr-text);
     border: solid 1px var(--clr-text);
     padding: 5px 5px;
-    transition: ease-in-out 1s;
   }
 
   header {
