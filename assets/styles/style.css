@@ -410,7 +410,7 @@ footer {
   display: flex;
   align-items: center;
 
-  > p {
+  > .copyright {
     color: var(--clr-white);
     padding-left: var(--side-space);
   }
@@ -532,7 +532,7 @@ footer {
 
   footer {
     align-items: flex-start;
-    > p {
+    > .copyright {
       padding-left: var(--space-text);
     }
   }
