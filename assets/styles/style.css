@@ -652,3 +652,105 @@ footer {
     }
   }
 }
+
+/* Iphone-Breakpoint */
+
+@media screen and (max-width: 414px) {
+  h3 {
+    font-size: var(--font-m);
+  }
+
+  p {
+    font-size: var(--fonts-strd);
+  }
+
+  .view__all__btn {
+    font-size: var(--fonts-strd);
+    color: var(--clr-text);
+    border: solid 1px var(--clr-text);
+    padding: 0px;
+    transition: ease-in-out 1s;
+  }
+
+  header {
+    & article {
+      text-align: center;
+      width: 400px;
+      > h2 {
+        font-size: var(--font-l);
+      }
+      > p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    height: initial;
+    padding: var(--side-space-iphone) var(--side-space-iphone);
+
+    > .works__gallery {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .image__tooltip {
+    display: block;
+    top: 0;
+  }
+
+  .parallax__content__window {
+    min-height: 90vh;
+  }
+
+  .services {
+    > div {
+      max-height: 150px;
+      > h4 {
+        font-size: var(--fonts-s);
+      }
+
+      > p {
+        font-size: var(--fonts-strd);
+      }
+    }
+  }
+
+  .section__blog {
+    padding: var(--side-space-iphone);
+    > .blog {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .parallax__bg2 {
+    height: 100vh;
+
+    > div {
+      height: 60vh;
+
+      > h3 {
+        font-size: var(--font-m);
+      }
+    }
+  }
+  .customers__section {
+    padding: var(--side-space-iphone);
+    max-width: 414px;
+
+    > .customer__reviews div {
+      min-width: 350px;
+    }
+    > .customer__reviews div p {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+  input,
+  textarea {
+    min-width: 350px;
+  }
+}
