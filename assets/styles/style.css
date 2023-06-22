@@ -210,6 +210,9 @@ img:not(.service, .image__customer) {
   padding: 0.8vh;
   transition: ease-in-out 1s;
 }
+.view__btn__container {
+  margin-top: 20px;
+}
 
 .section__blog,
 .section__gallery,
