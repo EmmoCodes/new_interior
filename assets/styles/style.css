@@ -213,7 +213,8 @@ img:not(.service, .image__customer) {
 }
 
 .section__blog,
-.section__gallery {
+.section__gallery,
+.section__testimonials {
   padding: var(--side-space);
 }
 
