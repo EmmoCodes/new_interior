@@ -538,7 +538,7 @@ footer {
   }
 
   .image__tooltip {
-    display: block;
+    opacity: 1;
     top: 0;
   }
 
