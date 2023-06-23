@@ -294,13 +294,13 @@ a .gallery__img__container {
 
 .image__tooltip {
   position: absolute;
-  top: 100%;
+  top: 0;
   bottom: 0;
   background-color: rgba(2, 56, 58, 0.7);
   width: 100%;
   overflow: hidden;
   transition: 0.3s ease;
-  display: none;
+  opacity: 0;
 
   > p {
     position: absolute;
@@ -435,7 +435,7 @@ footer {
 
 .gallery__img__container:hover .image__tooltip {
   top: 0;
-  display: block;
+  opacity: 1;
 }
 
 .gallery__img__container:hover img {
