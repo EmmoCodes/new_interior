@@ -148,7 +148,6 @@ p {
   font-size: var(--fonts-strd);
   font-family: 'Helvetica' sans-serif;
   color: var(--clr-text);
-  margin: var(--space-text) 0;
 }
 
 a {
@@ -287,6 +286,9 @@ a .gallery__img__container {
 
   > img {
     transition: transform 1s;
+    aspect-ratio: 1.7/1;
+    object-position: center;
+    object-fit: cover;
   }
 }
 
@@ -364,8 +366,11 @@ a .gallery__img__container {
   margin: 0 auto;
 
   > img {
-    width: 60%;
+    height: 50%;
     margin: 0 auto;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
   }
 }
 
